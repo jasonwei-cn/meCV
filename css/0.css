@@ -460,7 +460,9 @@ html, body {
 	color: #333;
 	font-size: 30px;
 }
-
+.page5 .content .end >a:hover{
+    color: #009A61;
+}
 @-webkit-keyframes fadeInRight {
 	0% {
 		opacity: 0;
