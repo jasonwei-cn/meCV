@@ -468,6 +468,15 @@ html, body {
 .page5 .content .end >a:hover{
     color: #009A61;
 }
+.page5 .content .end p{
+    color: #434343;
+}
+.page5 .content .end p a{
+    color: #dddddd;
+}
+.page5 .content .end p a:hover{
+    color: #009A61;
+}
 @-webkit-keyframes fadeInRight {
 	0% {
 		opacity: 0;
