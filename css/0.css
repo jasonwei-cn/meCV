@@ -1,10 +1,13 @@
-body, div, h1, h2, h3, h4, h5, form, input, img, ul, ol, li, dl, dt, dd, p {
+body, div, h2, h3, h4, h5, form, input, img, ul, ol, li, dl, dt, dd, p {
 	margin: 0;
 	padding: 0;
 	border: none;
 	outline: 0;
 }
-
+.wrap h1{
+    font-size: 50px;
+    
+}
 li {
 	list-style: none;
 }
@@ -146,7 +149,7 @@ html, body {
 }
 
 .page2, .page4 {
-	background: #e8e8e8;
+	background: #bbb;
 }
 
 .page3, .page5 {
@@ -206,7 +209,7 @@ html, body {
 	display: table;
 	height: 100px;
 	width: 450px;
-	background: #fff;
+	background: #EFEFEF;
 	border: 1px solid #eee;
 	box-shadow: 1px 3px 3px 0 #b9b9b9;
 	border-radius: 2px;
@@ -259,7 +262,9 @@ html, body {
 	border-radius: 4px;
 	box-shadow: 0 3px 0 0 #ab3434;
 }
-
+.page2 .project .pro-btn .pro-link:hover{
+    background-color: #666666;
+}
 .page2 .project.pro1 {
 	float: left;
 	margin-right: 50%;
@@ -385,7 +390,7 @@ html, body {
 	width: 50px;
 	height: 100%;
 	margin: 0 2px;
-	background: #fff;
+	background: #EFEFEF;
 	border: 1px solid #eee;
 	border-radius: 2px;
 	box-shadow: 1px 3px 3px 0 #b9b9b9;
@@ -425,6 +430,7 @@ html, body {
 	line-height: 2;
 	text-align: left;
 	word-break: break-all;
+    
 }
 
 .page4 .history .intro .company {
@@ -444,9 +450,11 @@ html, body {
 .page5 {
 	text-align: center;
 }
-
+.page5 .tit5{
+    margin-top: 60px;
+    }
 .page5 .content {
-	margin: 180px 0 0;
+	margin-top: 45px;
 }
 
 .page5 .content .end {
@@ -858,7 +866,7 @@ html, body {
 	height: 50px;
 	width: 50px;
 	margin: 10px 0;
-	background: #fe2f62;
+	background: #424242;
 	border-radius: 25px;
 	cursor: pointer;
 	font-size: 30px;
@@ -1068,7 +1076,7 @@ html, body {
 	.page4 .history .intro .job {
 		margin-bottom: 0.05rem;
 	}
-
+    
 	.page5 .content {
 		margin: 1.8rem 0 0;
 	}
