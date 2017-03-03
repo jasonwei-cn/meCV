@@ -460,8 +460,14 @@ html, body {
 	color: #333;
 	font-size: 30px;
 }
+<<<<<<< Updated upstream
 .page5 .content .end >a:hover{
         color: #009A61;
+=======
+
+.page5 .content .end >a:hover{
+    color: #009A61;
+>>>>>>> Stashed changes
 }
 @-webkit-keyframes fadeInRight {
 	0% {
