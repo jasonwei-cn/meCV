@@ -5,8 +5,10 @@ body, div, h2, h3, h4, h5, form, input, img, ul, ol, li, dl, dt, dd, p {
 	outline: 0;
 }
 .wrap h1{
-    font-size: 50px;
-    
+  font-size: 60px;
+  text-shadow: 1px 2px #22c3aa,2px 4px #aee2d9;
+	text-align: center;
+	color: #EEF3F0;
 }
 li {
 	list-style: none;
@@ -149,11 +151,11 @@ html, body {
 }
 
 .page2, .page4 {
-	background: #bbb;
+	background: #00BFA5b;
 }
 
 .page3, .page5 {
-	background: #bbb;
+	background: #00BFA5;
 }
 
 .title {
@@ -194,6 +196,8 @@ html, body {
 
 .page2 {
 	text-align: center;
+    background:#00BFA5;
+  
 }
 
 .page2 .tit2 {
@@ -373,6 +377,7 @@ html, body {
 
 .page4 {
 	text-align: center;
+    background: #00BFA5;
 }
 
 .page4 .tit4 {
@@ -450,11 +455,10 @@ html, body {
 .page5 {
 	text-align: center;
 }
-
 .page5 .tit5{
-        margin-top: 60px;
-}
-
+  margin-top: 60px;
+ }
+ 
 .page5 .content {
 	margin-top: 55px;
 }
@@ -476,7 +480,7 @@ html, body {
 }
 
 .page5 .content .end >a:hover{
-    color: #009A61;
+    color: #99FF33;
 }
 .page5 .content .end p{
     color: #434343;
@@ -485,7 +489,7 @@ html, body {
     color: #dddddd;
 }
 .page5 .content .end p a:hover{
-    color: #009A61;
+    color: #99FF33;
 }
 @-webkit-keyframes fadeInRight {
 	0% {
