@@ -197,7 +197,6 @@ html, body {
 .page2 {
 	text-align: center;
     background:#00BFA5;
-  
 }
 
 .page2 .tit2 {
@@ -244,12 +243,13 @@ html, body {
 }
 
 .page2 .project .pro-txt > h3 {
-	font-size: 14px;
+	font-size: 17px;
 	margin-bottom: 5px;
 }
 
 .page2 .project .pro-txt > p {
-	font-size: 13px;
+	font-size: 14px;
+    font-weight:300;
 }
 
 .page2 .project .pro-btn {
@@ -316,8 +316,8 @@ html, body {
 .page3 .skill {
 	display: inline-block;
 	vertical-align: middle;
-	width: 150px;
-	height: 100%;
+	width: 160px;
+	height: 106%;
 	margin: 5px 20px;
 	background: #efefef;
 	border: 1px solid #efefef;
@@ -344,16 +344,18 @@ html, body {
 	width: 100px;
 	height: 40px;
 	margin: 10px auto;
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid #F13931;
 }
 
 .page3 .skill .skill-point {
-	font-size: 16px;
+    font-size: 16px;
 	display: inline-block;
 	margin: 5px 20px;
 	padding: 5px 10px;
 	background: rgba(255, 154, 0, 0.4);
 	border-radius: 8px;
+    color: #AEE2D9;
+    background-color: #096254;
 }
 
 .page3 .skill .backface {
@@ -362,6 +364,9 @@ html, body {
 	top: 0;
 	width: 100%;
 	height: 100%;
+	color: color: #AEE2D9;
+    background-color: #096254;
+	line-height: -20px;
 	padding: 15px;
 	text-indent: 2em;
 	text-align: justify;
@@ -386,7 +391,7 @@ html, body {
 
 .page4 .content {
 	width: 650px;
-	height: 300px;
+	height: 330px;
 	margin: 100px auto 0;
 }
 
@@ -435,12 +440,17 @@ html, body {
 	line-height: 2;
 	text-align: left;
 	word-break: break-all;
-    
 }
-
+.page4 .history .intro dt{
+    font-size: 17px;
+}
+.page4 dd{
+    font-size: 15px;
+    font-weight: 400;
+}
 .page4 .history .intro .company {
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 22px;
 }
 
 .page4 .history .intro > .job {
@@ -449,9 +459,16 @@ html, body {
 
 .page4 .history .intro > dd {
 	display: list-item;
-	list-style-type: circle;
+	list-style-type: circle;   
 }
 
+.page4 span{
+    color: #FEC02D;
+    background-color: #434343;
+    padding: 0 5px;
+    border-radius: 2px;
+    
+}
 .page5 {
 	text-align: center;
 }
@@ -468,6 +485,7 @@ html, body {
 	font-size: 30px;
 	font-weight: 500;
 	margin: 10px 0;
+	color: #096254;
 }
 
 .page5 .content .end >a {
@@ -490,6 +508,9 @@ html, body {
 }
 .page5 .content .end p a:hover{
     color: #99FF33;
+}
+.page5 .content .end p a:hover{
+    color: #dddddd;
 }
 @-webkit-keyframes fadeInRight {
 	0% {
@@ -795,6 +816,11 @@ html, body {
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 }
+
+.info .info-box .info-li p{
+    color: antiquewhite;
+}
+
 .info .info-box .info-li a{
     color: antiquewhite;
 }
