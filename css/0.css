@@ -197,6 +197,7 @@ html, body {
 .page2 {
 	text-align: center;
     background:#00BFA5;
+
 }
 
 .page2 .tit2 {
@@ -494,24 +495,18 @@ html, body {
 }
 
 .page5 .content .end >a:hover{
-        color: #009A61;
-}
-
-.page5 .content .end >a:hover{
     color: #99FF33;
 }
 .page5 .content .end p{
     color: #434343;
 }
 .page5 .content .end p a{
-    color: #dddddd;
-}
-.page5 .content .end p a:hover{
     color: #99FF33;
 }
 .page5 .content .end p a:hover{
     color: #dddddd;
 }
+
 @-webkit-keyframes fadeInRight {
 	0% {
 		opacity: 0;
@@ -1121,7 +1116,7 @@ html, body {
 	.page5 .content .end > a {
 		font-size: .3rem;
 	}
-
+    
 	.mouse-tips {
 		width: .5rem;
 		height: .5rem;
