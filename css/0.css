@@ -150,14 +150,19 @@ html, body {
 	position: relative;
 }
 
-.page2, .page4 {
+.page2 {
 	background: #00BFA5b;
 }
 
-.page3, .page5 {
-	background: #00BFA5;
+.page3 {
+	background: #9C58B6;
 }
-
+.page4{
+    background: #ED6461;
+}
+.page5{
+    background: #149B70;
+}
 .title {
 	font-size: 30px;
 }
@@ -213,10 +218,10 @@ html, body {
 	display: table;
 	height: 100px;
 	width: 450px;
-	background: #EFEFEF;
+	background: #35D8BF;
 	border: 1px solid #eee;
-	box-shadow: 1px 3px 3px 0 #b9b9b9;
-	border-radius: 2px;
+	box-shadow: 1px 3px 3px 0 #306364;
+	border-radius: 12px;
 	opacity: 0;
 	cursor: pointer;
 	box-sizing: border-box;
@@ -320,10 +325,10 @@ html, body {
 	width: 160px;
 	height: 106%;
 	margin: 5px 20px;
-	background: #efefef;
+	background: #AEDBC6;
 	border: 1px solid #efefef;
 	box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.35);
-	border-radius: 2px;
+	border-radius: 10px;
 	position: relative;
 	-webkit-transition: -webkit-transform .8s ease;
 	transition: -webkit-transform .8s ease;
@@ -381,9 +386,28 @@ html, body {
 	background: #efefef;
 }
 
+.page4 .history.cur {
+	width: 500px;
+}
+
+.page4 .history .year {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50px;
+	height: 100%;
+	text-align: center;
+    margin: 0 auto;
+	box-sizing: border-box;
+	padding: 30px 0 0 15px;
+	font-size: 18px;
+	font-weight: 700;
+	word-wrap: break-word;
+	letter-spacing: 20px;
+}
+
 .page4 {
 	text-align: center;
-    background: #00BFA5;
 }
 
 .page4 .tit4 {
@@ -486,7 +510,7 @@ html, body {
 	font-size: 30px;
 	font-weight: 500;
 	margin: 10px 0;
-	color: #096254;
+	color: #EEF3F0;
 }
 
 .page5 .content .end >a {
@@ -911,7 +935,7 @@ html, body {
 	left: -50px;
 	top: 13px;
 	font-size: 16px;
-	color: #000;
+	color: #fff;
 }
 
 .nav-right .item.on {
