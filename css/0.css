@@ -384,6 +384,7 @@ html, body {
 	backface-visibility: hidden;
 	overflow: hidden;
 	background: #efefef;
+	border-radius: 8px;
 }
 
 .page4 .history.cur {
